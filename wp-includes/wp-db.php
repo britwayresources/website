@@ -1515,9 +1515,9 @@ class wpdb {
 			}
 		} else {
 			if ( WP_DEBUG ) {
-				$this->dbh = mysql_connect( $this->dbhost, $this->dbuser, $this->dbpassword, $new_link, $client_flags );
+				$this->dbh = mysql_connect( $this->dbhost, $this->dbuser, $this->dbpassword, $new_link );
 			} else {
-				$this->dbh = @mysql_connect( $this->dbhost, $this->dbuser, $this->dbpassword, $new_link, $client_flags );
+				$this->dbh = @mysql_connect( $this->dbhost, $this->dbuser, $this->dbpassword, $new_link );
 			}
 		}
 

@@ -29,7 +29,7 @@ define('DB_USER', 'auticsg_jason');
 define('DB_PASSWORD', 'jasonbti4DB');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql1207.ixwebhosting.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -77,7 +77,7 @@ $table_prefix  = 'bw_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
