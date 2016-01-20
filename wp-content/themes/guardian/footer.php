@@ -10,7 +10,7 @@
 		{  ?>
 		<div class="one_third animate" data-anim-type="fadeInUp">
 			<div class="siteinfo">			
-				<h4 class="lmb"><?php _e('About Guardian',gr_td); ?></h4>				
+				<h4 class="lmb"><?php _e('About Britway Resources',gr_td); ?></h4>
 				<p><?php _e('All the Lorem Ipsum generators on the Internet tend to repeat predefined an chunks as necessary, making this the first true generator on the Internet.
 					All the Lorem Ipsum generators on the Internet tend to repeat predefined Lorem Ipsum as their default model text, and a search for web sites.',gr_td); ?></p>
 				<br />							
