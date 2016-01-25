@@ -20,7 +20,7 @@
 
 <?php if ( (of_get_option('innerpageslider', true) != 'hide') || is_home() || is_front_page() ) { ?>
 	<div class="slider-main">
-    <?php $slide_title = '<h1>BRITWAY RESOURCES</h1><p>Create Value, Pursue Excellence, Satisfy Customers.</p><a href="#" onclick="alert(\'Coming soon\');">Contact Us</a>'; ?>
+    <?php $slide_title = '<h1>BRITWAY RESOURCES</h1><p>Create Value, Pursue Excellence, Satisfy Customers.</p><a href="' . esc_url(get_site_url().'/#services') . '">Your Gateway to Asia</a>'; ?>
             <div class="top-bar">
                 <?php echo of_get_option( 'header_title', $slide_title ); ?>
             </div><!-- top-bar -->

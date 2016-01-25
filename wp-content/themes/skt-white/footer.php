@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php if( is_home() || is_front_page() ) { ?>
+<?php if( FALSE && (is_home() || is_front_page()) ) { ?>
 <section style="background-color:#ffffff;">
             	<div class="container"><h2><?php echo of_get_option('socialtitle',__('We Are Everywhere!','skt-white')) ; ?></h2>
                 		<div class="social-icons">
@@ -46,11 +46,12 @@
  <div id="footer-wrapper">
     	<footer class="footer">
         	<div class="footer-col-1">
-            	<h2><?php  echo of_get_option('footerabttitle',__('About SKT White','skt-white')); ?></h2>
-                <p><?php echo of_get_option('footerabttext',__('Donec ut ex ac nulla pellentesque mollis in a enim. Praesent placerat sapien mauris, vitae sodales tellus venenatis ac. Suspendisse suscipit velit id ultricies auctor. Duis turpis arcu, aliquet sed sollicitudin sed, porta quis urna. Quisque velit nibh, egestas et erat a, vehicula interdum augue. Morbi ut elementum justo. Sed eu nibh orci. Vivamus elementum erat orci. Curabitur consequat convallis dapibus.','skt-white')); ?></p>
+            	<h2><?php  echo of_get_option('footerabttitle',__('About Britway Resources','skt-white')); ?></h2>
+                <p><?php echo of_get_option('footerabttext',__('Incorporated in 2000 in the province of British Columbia, Canada, Britway Technology Inc. is a unique and innovative services and products provider. We are committed to providing our customers with best business solutions through value added services and most cost-effective products.','skt-white')); ?></p>
             </div>
-            
+
             <div class="footer-col-1">
+            <!--- NOT USED
             	<h2><?php echo of_get_option('recenttitle',__('Recent Posts','skt-white')); ?></h2>
                 <ul class="recent-post">
                 	<?php $query =  new wp_query(array('posts_per_page'   => 2)); ?>
@@ -60,20 +61,21 @@
                     <?php endwhile; ?>
                     <?php wp_reset_query(); ?>
                 </ul>
+            --->
             </div>
-            
+
             <div class="footer-col-3">
-            	<h2><?php echo of_get_option('addresstitle',__('SKT White','skt-white')); ?></h2>
-                <p><?php echo of_get_option('address',__('Street 238,52 tempor Donec ultricies mattis nulla, suscipit risus tristique ut.','skt-white')) ; ?></p>
+            	<h2><?php echo of_get_option('addresstitle',__('Britway Resources','skt-white')); ?></h2>
+                <p><?php echo of_get_option('address',__('834 West 62nd Ave., Vancouver, B.C. Canada, V6P2E4','skt-white')) ; ?></p>
                 <div class="phone-no">
                 	<?php if( of_get_option('phone',true) != ''){ ?>
                 		<p><strong><?php _e('Phone:','skt-white'); ?></strong><?php  echo of_get_option('phone','+1 500 000 0000'); ?></p>
                    	<?php } ?>
                     <?php if( of_get_option('email',true) != '' ) { ?>
-                    	<p><strong><?php _e('E-mail:','skt-white'); ?></strong><a href="mailto:<?php echo sanitize_email(of_get_option('email','demo@lorem.com')); ?>"><?php echo of_get_option('email','demo@lorem.com'); ?></a></p>
+                    	<p><strong><?php _e('E-mail:','skt-white'); ?></strong><a href="mailto:<?php echo sanitize_email(of_get_option('email','info@britwayresources.com')); ?>"><?php echo of_get_option('email','info@britwayresources.com'); ?></a></p>
                     <?php } ?>
                     <?php if( of_get_option('weblink',true) != ''){ ?>
-                    <p><strong><?php _e('Website:','skt-white'); ?></strong><a href="<?php echo esc_url(of_get_option('weblink','http://www.websitedomain.com')); ?>" target="_blank"><?php echo of_get_option('weblink','http://www.websitedomain.com'); ?></a></p>
+                    <p><strong><?php _e('Website:','skt-white'); ?></strong><a href="<?php echo esc_url(of_get_option('weblink','http://www.britwayresources.com')); ?>" target="_blank"><?php echo of_get_option('weblink','http://www.britwayresources.com'); ?></a></p>
                     <?php } ?>
                 </div>
             </div>
@@ -82,8 +84,8 @@
         
         <div class="copyright-wrapper">
         	<div class="copyright">
-            	<div class="copyright-txt"><?php echo of_get_option('copytext',__('&copy; 2015 SKT White. All Rights Reserved','skt-white')); ?></div>
-                <div class="design-by"><?php echo SKT_DESIGN_BY; ?></div>
+            	<div class="copyright-txt"><?php echo of_get_option('copytext',__('&copy; 2016 Britway Resources. All Rights Reserved','skt-white')); ?></div>
+                <div class="languages"><?php echo do_shortcode('[flagicons]'); ?></div>
             </div>
             <div class="clear"></div>
         </div>

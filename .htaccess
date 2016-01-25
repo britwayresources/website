@@ -1,10 +1,5 @@
-AuthType basic
-AuthName "prompt"
-AuthUserFile /hsphere/local/home/auticsgr/.htpasswd
-Require valid-user
 
 # BEGIN WordPress
-
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /

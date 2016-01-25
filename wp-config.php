@@ -29,7 +29,8 @@ define('DB_USER', 'auticsg_jason');
 define('DB_PASSWORD', 'jasonbti4DB');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql1207.ixwebhosting.com');
+//define('DB_HOST', 'mysql1207.ixwebhosting.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

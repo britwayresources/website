@@ -11,9 +11,16 @@ Author: Miles
 Author URI:
 */
 
+
 function change_theme()
 {
-    	return get_query_var('theme', 'skt-white');
+	if(isset($_GET["theme"])){
+		$theme = $_GET["theme"];
+	}
+	if(empty($theme)){
+		$theme = "appointment";
+	}
+	return $theme;
 }
 
 add_filter('template', 'change_theme');

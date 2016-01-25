@@ -86,8 +86,7 @@ get_header();
 			'bgcolor' 		=> '',
 			'bgimage'		=> get_template_directory_uri()."/images/contact-banner.jpg",
 			'class'			=> 'contact-banner',
-			'content'		=> '<h3>Do you like what we do? Want to be a partner?</h3>
-            <a class="contact-button" href="#">Contact Us</a>',
+			'content'		=> '<h3>Do you like what we do? Want to be a partner?</h3><a class="contact-button" href="#">Contact Us</a>',
 		),
 
 		3 => array(
@@ -100,7 +99,7 @@ get_header();
 			'content'		=> '<div class="one_half"><div class="message-thumb"><img src="'.get_template_directory_uri().'/images/manager-img.jpg" /></div></div><div class="one_half last"><div class="message-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet ex at mauris varius interdum. Fusce mattis gravida libero, nec sollicitudin eros finibus at. Praesent ex diam, mattis vitae efficitur vel, egestas sed neque. Sed congue interdum cursus. Nullam in tincidunt neque. Cras enim tortor, porta id tempor vel, placerat et tellus. Vestibulum eget ullamcorper orci. Suspendisse potenti. Proin rutrum magna ac gravida scelerisque. Nunc eu sodales nisi. Curabitur ligula quam, maximus commodo sodales ut, pretium eget ipsum. Proin lobortis, nibh vel fringilla dictum, ipsum tortor cursus ex, facilisis cursus sapien sem at sem. Mauris in risus ac massa congue volutpat sit amet at metus. Ut in metus posuere, rutrum risus eget, aliquam arcu. Curabitur tincidunt, nulla ut pellentesque aliquet, mi risus pharetra sem, at euismod tortor eros imperdiet turpis.
 			<br/>Donec ut ex ac nulla pellentesque mollis in a enim. Praesent placerat sapien mauris, vitae sodales tellus venenatis ac. Suspendisse suscipit velit id ultricies auctor. Duis turpis arcu, aliquet sed sollicitudin sed, porta quis urna. Quisque velit nibh, egestas et erat a, vehicula interdum augue. Morbi ut elementum justo. Fusce mattis gravida libero, nec sollicitudin eros finibus at. Praesent ex diam, mattis vitae efficitur vel, egestas sed neque. Sed congue interdum cursus. Nullam in tincidunt neque. Cras enim tortor, porta id tempor vel, placerat et tellus. Vestibulum eget ullamcorper orci. Suspendisse potenti. Proin rutrum magna ac gravida scelerisque. Nunc eu sodales nisi.</div></div>',
 		),
-		
+
 		4 => array(
 			'section_title'	=> 'Our Statistics',
 			'menutitle'		=> 'stat',
@@ -110,9 +109,9 @@ get_header();
 			'content'		=> '<ul id="some-facts">
 			<li><h2>2000</h2><h5>Download</h5></li><li><h2>300</h2><h5>Projects Done</h5></li><li><h2>400</h2><h5>Happy Clients</h5></li><li><h2>100</h2><h5>Awards Won</h5></li><br>
 			</ul>',
-			
+
 		),
-		
+
 		5 => array(
 			'section_title'	=> 'Our Support',
 			'menutitle'		=> 'support',
@@ -121,7 +120,7 @@ get_header();
 			'class'			=> 'our-team',
 			'content'		=> '<div class="team-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia malesuada mi vitae tristique. Donec fringilla ullamcorper nulla sed gravida. Vestibulum quis sollicitudin nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis odio augue, efficitur non viverra a, fermentum sit amet felis. Cras scelerisque purus eu pellentesque feugiat. Curabitur ut bibendum ante. Sed et ex blandit, auctor purus mollis, euismod mi. Fusce vel nisi sit amet dolor condimentum ultricies. Morbi sagittis arcu sed odio finibus eleifend. Pellentesque nunc purus, scelerisque rutrum sem eu, accumsan tempor orci. Aliquam neque neque, elementum et nunc non, sodales fringilla turpis. </div>'
 		),
-		
+
 		6 => array(
 			'section_title'	=> 'Our Projects',
 			'menutitle'		=> 'portfolio',
@@ -130,7 +129,7 @@ get_header();
 			'class'			=> 'our-projects',
 			'content'		=> '<a class="example-image-link" href="'.get_template_directory_uri().'/images/banner-seventh.jpg" data-lightbox="example-set" data-title="Title 1"><img src="'.get_template_directory_uri().'/images/banner-seventh.jpg"></a><a class="example-image-link" href="'.get_template_directory_uri().'/images/banner-sixth.jpg" data-lightbox="example-set" data-title="Title 2"><img src="'.get_template_directory_uri().'/images/banner-sixth.jpg"></a><a class="example-image-link" href="'.get_template_directory_uri().'/images/banner-fifth.jpg" data-lightbox="example-set" data-title="Title 3"><img src="'.get_template_directory_uri().'/images/banner-fifth.jpg"></a><a class="example-image-link" href="'.get_template_directory_uri().'/images/banner-fourth.jpg" data-lightbox="example-set" data-title="Title 4"><img style="margin-right:0;" src="'.get_template_directory_uri().'/images/banner-fourth.jpg"></a><a class="example-image-link" href="'.get_template_directory_uri().'/images/banner-nine.jpg" data-lightbox="example-set" data-title="Title 5"><img src="'.get_template_directory_uri().'/images/banner-nine.jpg"></a><a class="example-image-link" href="'.get_template_directory_uri().'/images/banner-ten.jpg" data-lightbox="example-set" data-title="Title 6"><img src="'.get_template_directory_uri().'/images/banner-ten.jpg"></a><a class="example-image-link" href="'.get_template_directory_uri().'/images/banner-sixth.jpg" data-lightbox="example-set" data-title="Title 7"><img src="'.get_template_directory_uri().'/images/banner-sixth.jpg"></a><a class="example-image-link" href="'.get_template_directory_uri().'/images/banner-fifth.jpg" data-lightbox="example-set" data-title="Title 8"><img style="margin-right:0;" src="'.get_template_directory_uri().'/images/banner-fifth.jpg"></a>'
 		),
-		
+
 		7 => array(
 			'section_title'	=> 'Our Clients',
 			'menutitle'		=> 'contact',
@@ -141,8 +140,8 @@ get_header();
 		),
 	);
 	
-    if( of_get_option('numsection', 7) > 0 ) { 
-        $numSections = esc_attr( of_get_option('numsection', 7) );
+    if( of_get_option('numsection', 2) > 0 ) {
+        $numSections = esc_attr( of_get_option('numsection', 2) );
         for( $s=1; $s<=$numSections; $s++ ){ 
             $title 			= ( of_get_option('sectiontitle'.$s, true) != '' ) ? esc_html( of_get_option('sectiontitle'.$s,$section_text[$s]['section_title']) ) : '';
 			$secid			= ( of_get_option('menutitle'.$s, true) != '') ? esc_html( of_get_option('menutitle'.$s, $section_text[$s]['menutitle']) ) : '';
@@ -178,8 +177,8 @@ get_header();
                                         <div class="news-box <?php if($k%4==0){?>last<?php } ?>">
 											<div class="news">
 												<?php if( has_post_thumbnail()){ 
-                                                $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
-                                                $imgUrl = $large_image_url[0];
+                                                	$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
+                                                	$imgUrl = $large_image_url[0];
                                                 } else {
                                                     $imgUrl = get_template_directory_uri().'/images/img_404.png';
                                                 }
