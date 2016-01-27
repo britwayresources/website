@@ -9,7 +9,7 @@
 		</div>
 <?php } ?>
 <div id="sidebar" <?php if( is_page_template('blog-post-left-sidebar.php')){?> style="float:left;"<?php } ?>>
-    
+
     <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
         <aside id="archives" class="widget">
             <h3 class="widget-title"><?php _e( 'Archives', 'skt-white' ); ?></h3>
@@ -26,7 +26,7 @@
             </ul>
         </aside>
     <?php endif; // end sidebar widget area ?>
-	
+
 </div><!-- sidebar -->
 
 <?php if( function_exists('is_woocommerce') && is_woocommerce() ) { ?>

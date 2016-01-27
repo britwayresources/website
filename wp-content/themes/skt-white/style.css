@@ -257,8 +257,8 @@ body.home .fixed, body.blog .fixed{position:fixed !important; top:0 !important; 
 .copyright-txt { float:left; font-family:arial; color:#757575;}
 .copyright-txt span { color:#00a8ff;}
 .languages { float:right; font-family:arial; color:#757575;}
-.languages a {display: inline-block; color:#757575; margin-left: 15px;}
-.languages a img{ margin-right: 5px; vertical-align: middle;}
+.languages ul li {float: left; margin-left: 15px;}
+.languages ul li img {margin-right: 5px; vertical-align: middle;}
 
 /* ------ Contact Form ------ */
 .wpcf7{ margin:0; padding:0; font:15px 'Roboto',san-serif; color:#ffffff;}
