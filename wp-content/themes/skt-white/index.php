@@ -51,7 +51,7 @@ get_header();
 	<?php
 		$section_text = array(
 		1 => array(
-			'section_title'		=> 'Who We DO',
+			'section_title'		=> __('What We Do', 'skt-white'),
 			'menutitle'			=> 'services',
 			'bgcolor' 			=> '#ffffff',
 			'bgimage'			=> '',
@@ -140,8 +140,8 @@ get_header();
 		),
 	);
 	
-    if( of_get_option('numsection', 2) > 0 ) {
-        $numSections = esc_attr( of_get_option('numsection', 2) );
+    if( of_get_option('numsection', 7) > 0 ) {
+        $numSections = esc_attr( of_get_option('numsection', 7) );
         for( $s=1; $s<=$numSections; $s++ ){ 
             $title 			= ( of_get_option('sectiontitle'.$s, true) != '' ) ? esc_html( of_get_option('sectiontitle'.$s,$section_text[$s]['section_title']) ) : '';
 			$secid			= ( of_get_option('menutitle'.$s, true) != '') ? esc_html( of_get_option('menutitle'.$s, $section_text[$s]['menutitle']) ) : '';
