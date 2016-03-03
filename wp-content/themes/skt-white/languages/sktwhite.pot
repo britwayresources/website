@@ -177,7 +177,7 @@ msgid "Website:"
 msgstr ""
 
 #: footer.php:85
-msgid "&copy; 2014 SKT White. All Rights Reserved"
+msgid "&copy; 2016 Britway Resources. All Rights Reserved"
 msgstr ""
 
 #: footer.php:86

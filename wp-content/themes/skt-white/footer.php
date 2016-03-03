@@ -7,8 +7,8 @@
  * @package SKT White
  */
 ?>
-
-<?php if( FALSE && (is_home() || is_front_page()) ) { ?>
+<!--
+<?php if((is_home() || is_front_page()) ) { ?>
 <section style="background-color:#ffffff;">
             	<div class="container"><h2><?php echo of_get_option('socialtitle',__('We Are Everywhere!','skt-white')) ; ?></h2>
                 		<div class="social-icons">
@@ -39,11 +39,13 @@
                     <?php if( of_get_option('insta',true) != ''){ ?>
                     	<a href="<?php echo esc_url(of_get_option('insta','#')); ?>" target="_blank"><div class="instagram icon"></div></a>
                     <?php } ?>
-                    </div><!-- social-icons -->
-                </div><!-- container --> 
+                    </div>
+                </div>
 </section>
 <?php } ?>
+-->
  <div id="footer-wrapper">
+    <!--- NOT USED
     	<footer class="footer">
         	<div class="footer-col-1">
             	<h2><?php  echo of_get_option('footerabttitle',__('About Britway Resources','skt-white')); ?></h2>
@@ -51,7 +53,6 @@
             </div>
 
             <div class="footer-col-1">
-            <!--- NOT USED
             	<h2><?php echo of_get_option('recenttitle',__('Recent Posts','skt-white')); ?></h2>
                 <ul class="recent-post">
                 	<?php $query =  new wp_query(array('posts_per_page'   => 2)); ?>
@@ -61,7 +62,6 @@
                     <?php endwhile; ?>
                     <?php wp_reset_query(); ?>
                 </ul>
-            --->
             </div>
 
             <div class="footer-col-3">
@@ -81,6 +81,7 @@
             </div>
             <div class="clear"></div>
         </footer>
+    --->
         
         <div class="copyright-wrapper">
         	<div class="copyright">

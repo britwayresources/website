@@ -174,7 +174,7 @@ msgid "Website:"
 msgstr ""
 
 #: footer.php:87
-msgid "&copy; 2016 Britway Resources. All Rights Reserved"
+msgid "&copy; 2016 明程资源. 版权所有"
 msgstr ""
 
 #: functions.php:39
