@@ -47,13 +47,16 @@ get_header();
 
 
 <?php else: ?>
-		<section style="background-color: '#ffffff';">
-			<div class="container">
-				<?php echo shortcode_render_page(array('id' => 'home')); ?>
-		        <div class="clear"></div>
-		    </div>
-		</section>
-       
+			<div class="content-area">
+			    <div class="middle-align">
+			        <div class="site-main" id="sitefull">
+						<?php echo shortcode_render_page(array('id' => 'home')); ?>
+				        <div class="clear"></div>
+				    </div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
 <?php endif; ?>
 
 <?php get_footer(); ?>

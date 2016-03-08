@@ -104,3 +104,22 @@ body {
 	width: 90px;
 	background-color: transparent !important;
 }
+
+.br-contact-us {
+	width: 100%;
+	display: table;
+}
+.br-contact-us > div {
+    display: table-cell;
+    width: 33.33%;
+}
+@media screen and (max-width:899px) {
+	.br-contact-us {
+	    display: block;
+	}
+	.br-contact-us > div {
+	    margin-top: 20px;
+		display: block;
+		width: 100%;
+	}
+}
