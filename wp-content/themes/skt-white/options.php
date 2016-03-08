@@ -845,9 +845,7 @@ function optionsframework_options() {
 	$options[] = array(
 		'name' => __('Slider Title', 'skt-white'),
 		'id' => 'header_title',
-		'std' => '<h1>SKT White</h1>
-				 <p>Aliquam vitae nunc nibh. Nam sollicitudin orci vel eros vulputate vestibulum.</p><br/>
-				 <a href="#">Contact Us</a>',
+		'std' => '<h1>明程资源</h1><p>整合资源, 创造价值, 服务客户.</p>',
 		'type' => 'editor');
 
 	$options[] = array(
@@ -1028,7 +1026,7 @@ function optionsframework_options() {
 		'name' => __('Footer Copyright', 'skt-white'),
 		'desc' => __('Copyright Text for your site.', 'skt-white'),
 		'id' => 'copytext',
-		'std' => '&copy; 2015 SKT White. All Rights Reserved',
+		'std' => '&copy; 2016 明程资源. 版权所有',
 		'type' => 'text');
 
 	// Support					

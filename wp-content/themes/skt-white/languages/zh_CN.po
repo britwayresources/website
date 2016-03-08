@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-01-26 00:39-0800\n"
-"PO-Revision-Date: 2016-01-26 09:36-0800\n"
+"POT-Creation-Date: 2016-03-07 23:28-0800\n"
+"PO-Revision-Date: 2016-03-07 23:40-0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -12,8 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.8.6\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-KeywordsList: _e;__;_x;esc_attr_x\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:14
@@ -64,11 +63,11 @@ msgstr ""
 
 #: archive.php:59
 msgid "Links"
-msgstr ""
+msgstr "链接"
 
 #: archive.php:62 sidebar.php:15
 msgid "Archives"
-msgstr ""
+msgstr "归档"
 
 #: comments.php:36 comments.php:56
 msgid "Comment navigation"
@@ -88,7 +87,7 @@ msgstr ""
 
 #: content-page.php:18 content-single.php:28 content.php:36 image.php:59
 msgid "Pages:"
-msgstr ""
+msgstr "页面："
 
 #: content-page.php:23 content-single.php:40 content.php:70 image.php:33
 #: image.php:65 inc/template-tags.php:70 inc/template-tags.php:89
@@ -101,7 +100,7 @@ msgstr ""
 
 #: content.php:29
 msgid "Read More &raquo"
-msgstr ""
+msgstr "更多内容 &raquo;"
 
 #: content.php:33
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
@@ -133,11 +132,11 @@ msgstr ""
 msgid "We Are Everywhere!"
 msgstr ""
 
-#: footer.php:49
+#: footer.php:51
 msgid "About Britway Resources"
 msgstr ""
 
-#: footer.php:50
+#: footer.php:52
 msgid ""
 "Incorporated in 2000 in the province of British Columbia, Canada, Britway "
 "Technology Inc. is a unique and innovative services and products provider. "
@@ -145,17 +144,17 @@ msgid ""
 "through value added services and most cost-effective products."
 msgstr ""
 
-#: footer.php:55
+#: footer.php:56
 msgid "Recent Posts"
-msgstr ""
+msgstr "近期动态"
 
-#: footer.php:60
+#: footer.php:61
 msgid "Read more..."
-msgstr ""
+msgstr "更多内容..."
 
 #: footer.php:68
 msgid "Britway Resources"
-msgstr ""
+msgstr "明程资源"
 
 #: footer.php:69
 msgid "834 West 62nd Ave., Vancouver, B.C. Canada, V6P2E4"
@@ -173,9 +172,9 @@ msgstr ""
 msgid "Website:"
 msgstr ""
 
-#: footer.php:87
-msgid "&copy; 2016 ������Դ. ��Ȩ����"
-msgstr ""
+#: footer.php:88
+msgid "&copy; 2016 Britway Resources. All Rights Reserved"
+msgstr "&copy; 2016 明程资源. 版权所有"
 
 #: functions.php:39
 msgid "Primary Menu"
@@ -189,24 +188,19 @@ msgstr ""
 msgid "Appears on blog page sidebar"
 msgstr ""
 
-#: functions.php:76
-msgctxt "Roboto font:on or off"
+#: functions.php:76 functions.php:82 functions.php:88
 msgid "on"
 msgstr ""
 
-#: functions.php:82
-msgctxt "Open Sans:on or off"
-msgid "on"
-msgstr ""
-
-#: functions.php:88
-msgctxt "Roboto Condensed:on or off"
-msgid "on"
-msgstr ""
-
-#: header.php:75
+#: header-backup.php:75 header.php:76
 msgid "Menu"
-msgstr ""
+msgstr "菜单"
+
+#: header.php:24
+msgid ""
+"<h1>Britway Resources</h1><p>Integrate Resources, Create Value, Satisfy "
+"Customer.</p>"
+msgstr "<h1>明程资源</h1><p>整合资源, 创造价值, 服务客户.</p>"
 
 #: image.php:23
 #, php-format
@@ -229,7 +223,7 @@ msgstr ""
 msgid "Theme Options"
 msgstr ""
 
-#: inc/includes/class-options-framework-admin.php:188 options.php:1044
+#: inc/includes/class-options-framework-admin.php:188 options.php:1042
 msgid "Buy PRO version for only $39 with more features."
 msgstr ""
 
@@ -237,7 +231,7 @@ msgstr ""
 msgid "Click OK to reset. Any theme settings will be lost!"
 msgstr ""
 
-#: inc/includes/class-options-framework-admin.php:219 options.php:1036
+#: inc/includes/class-options-framework-admin.php:219 options.php:1034
 msgid "Our Themes"
 msgstr ""
 
@@ -368,12 +362,10 @@ msgid "Post navigation"
 msgstr ""
 
 #: inc/template-tags.php:37
-msgctxt "Previous post link"
 msgid "&larr;"
 msgstr ""
 
 #: inc/template-tags.php:38
-msgctxt "Next post link"
 msgid "&rarr;"
 msgstr ""
 
@@ -391,7 +383,6 @@ msgstr ""
 
 #: inc/template-tags.php:86
 #, php-format
-msgctxt "1: date"
 msgid "%1$s"
 msgstr ""
 
@@ -406,13 +397,13 @@ msgid ""
 "%2$s</span>"
 msgstr ""
 
-#: index.php:172
+#: index-backup.php:227
 msgid "Latest News"
 msgstr ""
 
 #: no-results.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "没有找到"
 
 #: no-results.php:19
 #, php-format
@@ -424,7 +415,7 @@ msgstr ""
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
-msgstr ""
+msgstr "很抱歉，没有搜索到你要的内容，请尝试输入不同的关键字"
 
 #: no-results.php:28
 msgid ""
@@ -518,160 +509,168 @@ msgstr ""
 msgid "Slider Title"
 msgstr ""
 
-#: options.php:854
+#: options.php:852
 msgid "Slider Image 1"
 msgstr ""
 
-#: options.php:855
+#: options.php:853
 msgid "Upload / select image for slide 1"
 msgstr ""
 
-#: options.php:863
+#: options.php:861
 msgid "Slider Image 2"
 msgstr ""
 
-#: options.php:864
+#: options.php:862
 msgid "Upload / select image for slide 2"
 msgstr ""
 
-#: options.php:871
+#: options.php:869
 msgid "Slider Image 3"
 msgstr ""
 
-#: options.php:872
+#: options.php:870
 msgid "Upload / select image for slide 3"
 msgstr ""
 
-#: options.php:879
+#: options.php:877
 msgid "Slider Image 4"
 msgstr ""
 
-#: options.php:880
+#: options.php:878
 msgid "Upload / select image for slide 4"
 msgstr ""
 
-#: options.php:887
+#: options.php:885
 msgid "Slider Image 5"
 msgstr ""
 
-#: options.php:888
+#: options.php:886
 msgid "Upload / select image for slide 5"
 msgstr ""
 
-#: options.php:897
+#: options.php:895
 msgid "Social Settings"
 msgstr ""
 
-#: options.php:901
+#: options.php:899
 msgid "Social Title"
 msgstr ""
 
-#: options.php:902
+#: options.php:900
 msgid "Add social section title here"
 msgstr ""
 
-#: options.php:908
+#: options.php:906
 msgid "Facebook Url with \"http://\""
 msgstr ""
 
-#: options.php:915
+#: options.php:913
 msgid "Twitter Url with \"http://\""
 msgstr ""
 
-#: options.php:922
+#: options.php:920
 msgid "Google Plus Url with \"http://\""
 msgstr ""
 
-#: options.php:929
+#: options.php:927
 msgid "LinkedIn Url with \"http://\""
 msgstr ""
 
-#: options.php:936
+#: options.php:934
 msgid "Pinterest Url with \"http://\""
 msgstr ""
 
-#: options.php:943
+#: options.php:941
 msgid "YouTube Url with \"http://\""
 msgstr ""
 
-#: options.php:950
+#: options.php:948
 msgid "Vimeo Url with \"http://\""
 msgstr ""
 
-#: options.php:957
+#: options.php:955
 msgid "RSS Url with \"http://\""
 msgstr ""
 
-#: options.php:964
+#: options.php:962
 msgid "Instagram Url with \"http://\""
 msgstr ""
 
-#: options.php:973
+#: options.php:971
 msgid "Footer"
 msgstr ""
 
-#: options.php:977
+#: options.php:975
 msgid "Footer About Section"
 msgstr ""
 
-#: options.php:978
+#: options.php:976
 msgid "About text title."
 msgstr ""
 
-#: options.php:984
+#: options.php:982
 msgid ""
 "Some text for footer of your site, you would like to display in the footer."
 msgstr ""
 
-#: options.php:990
+#: options.php:988
 msgid "Footer Recent Posts"
 msgstr ""
 
-#: options.php:991
+#: options.php:989
 msgid "Footer recent post title."
 msgstr ""
 
-#: options.php:997
+#: options.php:995
 msgid "Footer Address Title"
 msgstr ""
 
-#: options.php:998
+#: options.php:996
 msgid "Footer Address title."
 msgstr ""
 
-#: options.php:1004
+#: options.php:1002
 msgid "Add company address here."
 msgstr ""
 
-#: options.php:1010
+#: options.php:1008
 msgid "Add phone number here."
 msgstr ""
 
-#: options.php:1016
+#: options.php:1014
 msgid "Add email address here."
 msgstr ""
 
-#: options.php:1022
+#: options.php:1020
 msgid "Add company url here with http://."
 msgstr ""
 
-#: options.php:1028
+#: options.php:1026
 msgid "Footer Copyright"
 msgstr ""
 
-#: options.php:1029
+#: options.php:1027
 msgid "Copyright Text for your site."
 msgstr ""
 
-#: options.php:1040
+#: options.php:1038
 msgid "SKT White WordPress theme has been Designed and Created by SKT Themes."
 msgstr ""
 
 #: search.php:15
 #, php-format
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "搜索结果: %s"
 
-#: sidebar.php:21
+#: searchform.php:11
+msgid "Search..."
+msgstr "搜索..."
+
+#: searchform.php:13
+msgid "Search"
+msgstr "搜索"
+
+#: sidebar.php:22
 msgid "Meta"
 msgstr ""

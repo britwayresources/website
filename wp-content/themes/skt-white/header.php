@@ -20,10 +20,9 @@
 
 <?php if ( (of_get_option('innerpageslider', true) != 'hide') || is_home() || is_front_page() ) { ?>
 	<div class="slider-main">
-    <?php $slide_title = '<h1>明程资源</h1><p>整合资源, 创造价值, 服务客户.</p>'; ?>
             <div class="top-bar">
-                <?php echo of_get_option( 'header_title', $slide_title ); ?>
-                <div class="languages"><ul><?php pll_the_languages(array('show_flags'=>1,'show_names'=>1));?></ul></div>
+                <?php _e('<h1>Britway Resources</h1><p>Integrate Resources, Create Value, Satisfy Customer.</p>', 'skt-white'); ?>
+                <ul class="languages"><?php pll_the_languages(array('show_flags'=>1,'show_names'=>1));?></ul>
             </div><!-- top-bar -->
             
             

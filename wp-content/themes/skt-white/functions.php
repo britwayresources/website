@@ -130,7 +130,7 @@ function skt_white_scripts() {
 	wp_enqueue_script( 'skt-white-lightbox', get_template_directory_uri() . '/js/lightbox.js', array('jquery') );
 	wp_enqueue_style( 'skt-white-animation-style', get_template_directory_uri().'/css/animation.css' );
 	
-	wp_enqueue_style( 'britway-resources-style', '/site-content/css/style.css' );
+	wp_enqueue_style( 'britway-resources-style', get_template_directory_uri().'/site-content/css/style.css' );
 	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -284,3 +284,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Load Britway Resources file.
+ */
+require get_template_directory() . '/site-content/functions.php';

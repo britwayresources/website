@@ -16,7 +16,7 @@ get_header(); ?>
     <div class="middle-align content_sidebar">
         <div class="site-main" id="sitemain">
             <header class="page-header">
-				<h1 class="page-title"><?php single_cat_title('Category: '); ?></h1>
+				<h1 class="page-title"><?php single_cat_title(''); ?></h1>
             </header><!-- .page-header -->
 			<?php if ( have_posts() ) : ?>
 				<?php /* Start the Loop */ ?>

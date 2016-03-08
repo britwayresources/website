@@ -85,8 +85,7 @@
         
         <div class="copyright-wrapper">
         	<div class="copyright">
-            	<div class="copyright-txt"><?php echo of_get_option('copytext',__('&copy; 2016 Britway Resources. All Rights Reserved','skt-white')); ?></div>
-                <div class="languages"><ul><?php pll_the_languages(array('show_flags'=>1,'show_names'=>1));?></ul></div>
+            	<div class="copyright-txt"><?php _e('&copy; 2016 Britway Resources. All Rights Reserved', 'skt-white'); ?></div>
             </div>
             <div class="clear"></div>
         </div>

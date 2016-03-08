@@ -17,6 +17,7 @@
                 <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
             </ul>
         </aside>
+
         <aside id="meta" class="widget">
             <h3 class="widget-title"><?php _e( 'Meta', 'skt-white' ); ?></h3>
             <ul>
@@ -25,6 +26,7 @@
                 <?php wp_meta(); ?>
             </ul>
         </aside>
+        
     <?php endif; // end sidebar widget area ?>
 
 </div><!-- sidebar -->
