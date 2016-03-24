@@ -11,8 +11,12 @@
 
 }
 #services-box .read-more:hover {
-    background-color: #00a8ff;
+    background-color: #4793cd;
     color: white;   
+}
+
+#services-box img {
+	height: 70px;
 }
 /******************************** Britway Resources Pages ***********************************/
 body {
@@ -146,9 +150,9 @@ ul.br-secondary-list > li:before{
 }
 
 .br-product-image { width: 100%; height: auto;}
-.br-table { display: table; width: 100%;}
-.br-table .tr {margin-left: -15px; margin-right: -15px;}
-.br-table .td {display: table-cell; float:left; position: relative; padding: 15px;}
+.br-table { display: block; width: 100%; box-sizing: border-box;}
+.br-table .tr {margin-left: -15px; margin-right: -15px; box-sizing: border-box;}
+.br-table .td {display: block; float:left; position: relative; padding: 15px; box-sizing: border-box;}
 .td-1 {width: 8.33%;}
 .td-2 {width: 16.67%;}
 .td-3 {width: 25%;}
