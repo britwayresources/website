@@ -1,23 +1,12 @@
 /**************************************** Override ******************************************/
-.nivoSlider {
-	height: 500px;
-}
+#sitefull {width: 100%!important;}
+.nivoSlider {height: 500px;}
+#footer-wrapper {padding: 0;}
+#services-box:hover {cursor:default;}
+#services-box .read-more {}
+#services-box .read-more:hover {background-color: #4793cd; color: white;}
+#services-box img {height: 70px;}
 
-#footer-wrapper {
-	padding: 0;
-}
-
-#services-box .read-more {
-
-}
-#services-box .read-more:hover {
-    background-color: #4793cd;
-    color: white;   
-}
-
-#services-box img {
-	height: 70px;
-}
 /******************************** Britway Resources Pages ***********************************/
 body {
 	left: 0;
@@ -29,9 +18,7 @@ body {
 	content: " ";
 	display: table;
 }
-.br-page:after {
-    clear: both;
-}
+.br-page:after {clear: both;}
 
 ul.br-primary-list > li{
 	margin-top: 60px;
@@ -150,6 +137,12 @@ ul.br-secondary-list > li:before{
 }
 
 .br-product-image { width: 100%; height: auto;}
+
+.br-table:after{
+    content: '';
+    display: table;
+    clear: both;
+}
 .br-table { display: block; width: 100%; box-sizing: border-box;}
 .br-table .tr {margin-left: -15px; margin-right: -15px; box-sizing: border-box;}
 .br-table .td {display: block; float:left; position: relative; padding: 15px; box-sizing: border-box;}
