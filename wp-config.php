@@ -29,8 +29,8 @@ define('DB_USER', 'auticsg_jason');
 define('DB_PASSWORD', 'jasonbti4DB');
 
 /** MySQL hostname */
-//define('DB_HOST', 'mysql1207.ixwebhosting.com');
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql1207.ixwebhosting.com');
+//define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -47,14 +47,14 @@ define('DB_COLLATE', 'utf8_general_ci');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '_7)[wl0<bXhywZ~mMRFHyge{~7blen{6ve9[ez}KM<CY>-@+{V@DPJ%V3bHj>@Z;');
-define('SECURE_AUTH_KEY',  '&%|{@n X<>8{AY7wr.+Vv+#J^F-X;mXQ+o]NY2j<tVagj~OymiKH:;`&(@wEX;CX');
-define('LOGGED_IN_KEY',    '4~6s6xk+?Z}}F5B_>C;;W .zG[Pih(B3`6XB`|?{r{3@+#=pQ(N$c,r3F%UDwA7+');
-define('NONCE_KEY',        '||n3|>o$$cAcYMd*)&Tjpgx35PlqDQ|>^+<Dqh.i1m,P^l1pqP/0C) T-:%kuHc%');
-define('AUTH_SALT',        'BB+BxSjS>k;+|%|fwq`=d<`<f}niB-VK/mHXJ8GZ4}xY7qDV9;kh?$~5{vyIk|,N');
-define('SECURE_AUTH_SALT', ')>f/p &xYryy[:ZL@mRjUn-eOPyau@E;imswDl&g.Po,+?kr7l;Wn@nGJ$]glNi(');
-define('LOGGED_IN_SALT',   '(qHL]|z|0+,-|ZvPu@!/{m:BJSkP_>8p@By&C75I}GL65fM(#~/=r]-A{m&KtQW8');
-define('NONCE_SALT',       '(=hmlb+bDu)!nFu]/k~R(5!F<C>;6WKd,QBn6uoHskBztDyqOodmC}~JqrFYTq1p');
+define('AUTH_KEY',         'r;/GPcQC0PF-c* }li?HuXjRw%.j+O^)NQm$Z1)U] NVfTT[n-@,v4-J;TAZC]<~');
+define('SECURE_AUTH_KEY',  '(?WfVd4j>whUr&3/[(8Hbh4Un%nxrc)+.jJAr4R-%-0?$<&^pPWKw?:W.?--ZK?l');
+define('LOGGED_IN_KEY',    '1Q=$6=so3lupnx*p1<PVI-zg!hM6I+<cfB/KR.O~~/p^R#F}Y+O|oa&hAE[W^.%_');
+define('NONCE_KEY',        ' U%y~x[,cp>B<at=;eYHe$M=|Rd|XM*#49m*Wri>m+C:`Hn{6a7{%uvc}0BN`+ 5');
+define('AUTH_SALT',        '.bf^cH$+]EzQs{Uwxv_OS(]}_rJE`j^o*V]6|{K}+@U4Kp-I,Nu~*bI<-W|]dE< ');
+define('SECURE_AUTH_SALT', 'b$L+!`C{<;P*-*s$-=fs-z!9$kT$mesR*TL}Z$50ZK[nhd2H}:+^9])/.8a>D7Z1');
+define('LOGGED_IN_SALT',   'qopVmt~cO|+W!) *i5gN1-zvT3zgvx%M$;.xMhv.z5UKsF:-vk6&&:$+4#{AIY&n');
+define('NONCE_SALT',       ']r]8/s~mNjz+YsUzP){0lGH+d/|6Kf76O9z*6@E8.;o/%SFH<#~Cu[Oq|Yhb#-`R');
 
 /**#@-*/
 
@@ -78,7 +78,25 @@ $table_prefix  = 'bw_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
+
+/**
+ * BEGIN - Extra configuration for Britway Resources
+ */
+# Disable all core updates:
+define( 'WP_AUTO_UPDATE_CORE', false );
+
+//disable the plugin and theme editor
+define( 'DISALLOW_FILE_EDIT', true );
+
+//remove the option of updating and installing plugins and themes
+define( 'DISALLOW_FILE_MODS', true );
+
+
+/**
+ * END
+ */
+
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -88,3 +106,4 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
