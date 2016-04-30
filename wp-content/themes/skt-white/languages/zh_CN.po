@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-03-07 23:28-0800\n"
-"PO-Revision-Date: 2016-03-08 00:36-0800\n"
+"POT-Creation-Date: 2016-04-30 09:58-0700\n"
+"PO-Revision-Date: 2016-04-30 10:06-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -192,11 +192,18 @@ msgstr ""
 msgid "on"
 msgstr ""
 
-#: header-backup.php:75 header.php:76
+#: header-backup.php:75 header.php:78
 msgid "Menu"
 msgstr "菜单"
 
-#: header.php:24
+#: header.php:14
+msgid ""
+"Noble metals,Ferroalloy,Ferro-vanadium,Titanium,Aluminum,High Purity "
+"Aluminum,Investment,VC,PE"
+msgstr ""
+"贵金属,合金,钒铁,钛,铝,高纯铝,投资,风险投资,天使投资,私募股权投资,私募投资"
+
+#: header.php:26
 msgid ""
 "<h1>Britway Resources</h1><p>Integrate Resources, Create Value, Satisfy "
 "Customer.</p>"

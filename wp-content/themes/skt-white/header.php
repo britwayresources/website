@@ -11,8 +11,10 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width">
+<meta name="keywords" content="<?php _e('Noble metals,Ferroalloy,Ferro-vanadium,Titanium,Aluminum,High Purity Aluminum,Investment,VC,PE', 'skt-white'); ?>">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
 <?php wp_head(); ?>
 </head>
 
