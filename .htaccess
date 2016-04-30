@@ -50,10 +50,10 @@ Order Deny,Allow
 
 # BEGIN WordPress
 
-AuthType basic
-AuthName "prompt"
-AuthUserFile /hsphere/local/home/auticsgr/.htpasswd
-Require valid-user
+#AuthType basic
+#AuthName "prompt"
+#AuthUserFile /hsphere/local/home/auticsgr/.htpasswd
+#Require valid-user
 Options All -Indexes
 
 <files wp-config.php>
